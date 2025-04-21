@@ -994,8 +994,13 @@ def main():
                             'col': col2,
                             # Orden deseado de las categorías
                             'order': ['SINCATALOGAR', 'NICOMPRA-NICOTIZA', 'SOLOCOTIZAN', 'COTIZANMASDELOQUECOMPRAN', 'COMPRANYCOTIZAN', 'COMPRANMASDELOQUECOTIZAN', 'SIEMPRECOMPRAN'],
-                            'order_f': ['Sin catalogar', 'Entre 91 y 120 días', 'Entre 61 y 90 días', 'Entre 31 y 60 días',
-                                        'Entre 121 y 150 días', 'Entre a 151 y 180 días', 'Mayores a 180 días'],
+                            'order_f': ['Sin catalogar',
+                                        'Entre 31 y 60 días',
+                                        'Entre 61 y 90 días',
+                                        'Entre 91 y 120 días',
+                                        'Entre 121 y 150 días',
+                                        'Entre a 151 y 180 días',
+                                        'Mayores a 180 días'],
                         }]
                     generar_graficos(df_t, configuraciones, color=3)
 
