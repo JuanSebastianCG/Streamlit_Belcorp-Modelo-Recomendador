@@ -1063,7 +1063,7 @@ def main():
                             # Orden deseado de las categorías
                             'order': ['SINCATALOGAR', 'PEQUENAEMPRESA', 'MEDIANAEMPRESA', 'GRANEMPRESA'],
                             # Orden deseado de las categorías
-                            'order_f': ['Sin catalogar', 'Profesional', 'Tecnólogo', 'Bachiller']
+                            'order_f': ['Sin catalogar', 'Bachiller', 'Tecnólogo', 'Profesional',]
                         },
                         {
                             'groupby': 'CATEGORIZACIONSECTORES',
@@ -1074,7 +1074,7 @@ def main():
                             'col': col32,
                             'order': ['SINCATALOGAR', 'OTROSSECTORES', 'SECTORALTOVALOR'],
                             # Orden deseado de las categorías
-                            'order_f': ['Sin catalogar', 'Empleado', 'Independiente']
+                            'order_f': ['Sin catalogar', 'Independiente', 'Empleado']
                         },
                         {
                             'groupby': 'ESTATUSOPERACIONAL',
