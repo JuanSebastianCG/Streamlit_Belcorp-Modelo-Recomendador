@@ -865,7 +865,7 @@ def main():
                             'Delineador líquido COLORFIX',
                             'Labial COLORFIX Duo',
                             'Perfume Vibranza ',
-                            'Perfume Vibranza',
+                            'Protector solar Perfect Block',
                             'Perfume Iluminas',
                             'Perfume Mía',
                             'Perfume Alpha'
@@ -888,7 +888,7 @@ def main():
                 dic1 = ['INSTALACIONES', 'MANTENIMIENTO', 'ESTUDIOS', 'AUMENTOS_CARGA',
                         'FIBRA_OPTICA', 'REDESELECTRICAS', 'ILUMINACION', 'CUENTASNUEVAS']
                 dic2 = ['Máscara de pestañas Mega Full Size ', 'Delineador líquido COLORFIX', 'Labial COLORFIX Duo', 'Perfume Mía',
-                        'Perfume Vibranza ', 'Labial COLORFIX Duo', 'Perfume Iluminas', 'Perfume Vibranza']
+                        'Perfume Vibranza ', 'Labial COLORFIX Duo', 'Perfume Iluminas', 'Protector solar Perfect Block']
                 Xf = Xf.replace(dict(zip(dic1, dic2)))
                 download_excel(Xf, 'Resultado', col=col2_container1)
 
@@ -929,7 +929,7 @@ def main():
                 # #REDESELECTRICAS
                 # dona('REDESELECTRICAS',1 , 1, 'Redes eléctricas')
                 dona_plotly(df_prob_prod=df_prob_prod, producto='REDESELECTRICAS',
-                            titulo='Perfume Vibranza', col=col2_container2)
+                            titulo='Protector solar Perfect Block', col=col2_container2)
 
             except UnboundLocalError:
                 st.warning(
