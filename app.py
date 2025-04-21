@@ -1015,9 +1015,13 @@ def main():
                             'col': col2,
                             'order': ['SINCATALOGAR', 'NICOMPRA-NICOTIZA', 'SOLOCOTIZAN', 'COTIZANMASDELOQUECOMPRAN',
                                       'COMPRANYCOTIZAN', 'COMPRANMASDELOQUECOTIZAN', 'SIEMPRECOMPRAN'],
-                            'order_f': ['Sin catalogar', 'Menor a 35mil', 'Entre 35mil y 45mil', 'Entre 45mil y 55mil',
-                                        # Orden deseado de las categorías
-                                        'Entre 55mil y 65mill', 'Entre 65mil y 75mill', 'Mayor a 75mil']
+                            'order_f': ['Sin catalogar',
+                                        'Menor a 350mil',
+                                        'Entre 350mil y 500mil',
+                                        'Entre 500mil y 1M',
+                                        'Mayor a 3M',
+                                        'Entre 2M-3M ',
+                                        'Entre 1M-2M']
                         }]
                     generar_graficos(df_t, configuraciones, color=4)
 
